@@ -36,7 +36,7 @@ li a:hover {
   margin-block-start: 12rem;
   padding-block-start: 8rem;
   background-color: #FFA559;
-  width: 85%;
+  width: 80%;
   height: 100%;
   position: relative;
   /* top: 82%;
@@ -46,6 +46,18 @@ li a:hover {
   /* transform: translate(-50%, -50%); */
   margin-inline: auto;
 }
+
+.bakgrunnsboks2 {
+  padding-block-end: 20rem;
+  background-color: #FFA559;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  margin-inline: auto;
+  height: auto;
+}
+
 .headerboks {
   position: absolute;
   top: 0;
@@ -64,6 +76,11 @@ h1 {
   font-weight: 400;
 }
 
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
 img {
   display: block;
   position: relative;
@@ -72,6 +89,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
+}
+
+video {
+  width: 320;
+  height: 240;
+  display: block;
+  place-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
